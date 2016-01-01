@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="de" sourcelanguage="en_US">
+<TS version="2.1" language="de" sourcelanguage="en_US">
 <context>
     <name>About</name>
     <message>
@@ -83,7 +83,7 @@
         <location line="+16"/>
         <location line="+181"/>
         <source>Status: Connecting to %1</source>
-        <translation>Status: Verbindund mit %1 wird hergestellt</translation>
+        <translation>Status: Verbindung mit %1 wird hergestellt</translation>
     </message>
     <message>
         <location line="-100"/>
@@ -128,7 +128,7 @@
     <message>
         <location line="+8"/>
         <source>Open AppDB</source>
-        <translation>AppDB im Browser öffnen</translation>
+        <translation>AppDB öffnen</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -138,7 +138,7 @@
     <message>
         <location line="+3"/>
         <source>Open App page</source>
-        <translation>Anwendungsseite im Browser öffnen</translation>
+        <translation>Anwendungsseite öffnen</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -582,12 +582,11 @@
     <message>
         <location line="-667"/>
         <source>AppDB browser subsystem:</source>
-        <translation>AppDB-Browser-Subsystem</translation>
+        <translation>AppDB-Browser-Subsystem:</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Open application details in system browser</source>
-        <translatorcomment>...</translatorcomment>
         <translation>Details zur Anwendung im Systembrowser öffnen</translation>
     </message>
     <message>
@@ -606,7 +605,7 @@
     <message>
         <location line="+6"/>
         <source>Enable automatic generation of desktop menu </source>
-        <translation>Automatische Generation von Desktop-Menü einschalten</translation>
+        <translation>Automatisches Generieren von Desktop-Menüs aktivieren</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -649,7 +648,7 @@
     <message>
         <location line="+13"/>
         <source>Default directory for new wine prefixes</source>
-        <translation>Standard-Verzeichnis für neue Wine-Präfixe</translation>
+        <translation>Standardordner für neue Wine-Präfixe</translation>
     </message>
     <message>
         <location line="+64"/>
@@ -712,22 +711,21 @@
     <message>
         <location line="-1681"/>
         <source>You can call it via Tools menu or via shortcut Ctrl+M</source>
-        <translation type="unfinished"></translation>
+        <translation>Sie können dies mit dem Menü „Werkzeuge“ oder dem Kurzbefehl Strg+M aufrufen</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Wine Version Manager</source>
-        <translation type="unfinished">Wine-Version-Manager</translation>
+        <translation>Wine-Versionenverwaltung</translation>
     </message>
     <message>
         <location line="+1502"/>
         <source>Note: Since SQLite was not designed to handle large amount of data, activating this can have a negative impact on the performance of Q4Wine. Use it with care.</source>
-        <translation>Hinweis: Wegen SQLite wurde nicht für große Mengen an Daten entworfen, die Einschaltung von diese Option kann die Leistung von q4wine beeinträchtigen. Mit Vorsicht benutzen.</translation>
+        <translation>Hinweis: Da SQLite nicht für große Datenmengen entworfen wurde,kann das Einschalten dieser Option die Leistung von Q4Wine beeinträchtigen. Mit Vorsicht benutzen.</translation>
     </message>
     <message>
         <location line="+181"/>
         <source>Default virtual desktop size will be used for &quot;Icon creation&quot; and &quot;Run&quot; dialogs.</source>
-        <translatorcomment>...</translatorcomment>
         <translation>Die Standard-Desktopgröße wird für die Dialoge „Icon-Erzeugung“ und „Ausführen“ verwendet.</translation>
     </message>
     <message>
@@ -744,7 +742,7 @@
     <message>
         <location line="+358"/>
         <source>Import Wine desktop files at Q4Wine startup.</source>
-        <translation>Wine-Desktop-Dateien beim Starten von q4wine importieren.</translation>
+        <translation>Wine-Desktop-Dateien beim Starten von Q4Wine importieren.</translation>
     </message>
     <message>
         <location line="+192"/>
@@ -762,7 +760,7 @@
     <message>
         <location filename="../core/database/db.cpp" line="+65"/>
         <source>No database loaded. Aborting...</source>
-        <translation>Keine Datenbank geladen. Breche ab...</translation>
+        <translation>Keine Datenbank geladen. Abbruch ...</translation>
     </message>
 </context>
 <context>
@@ -941,7 +939,6 @@
         <location filename="../q4wine-gui/fakedrivesettings.cpp" line="-705"/>
         <location line="+707"/>
         <source>Misc Audio</source>
-        <translatorcomment>---</translatorcomment>
         <translation>Audio/Sonstiges</translation>
     </message>
     <message>
@@ -967,7 +964,7 @@
     <message>
         <location line="+38"/>
         <source>Mailers:</source>
-        <translation>Mailprogramme:</translation>
+        <translation>E-Mail-Programme:</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -1149,7 +1146,7 @@
     <message>
         <location filename="../q4wine-gui/fakedrivesettings.cpp" line="-787"/>
         <source>Fake drive settings for prefix &quot;%1&quot;</source>
-        <translation>Einstellungen für virtuelle Laufwerke für Präfix: &quot;%1&quot;</translation>
+        <translation>Einstellungen für virtuelle Laufwerke für Präfix: „%1“</translation>
     </message>
     <message>
         <location line="+122"/>
@@ -1415,12 +1412,12 @@ Weitere Informationen unter Hilfe.</translation>
         <location line="+537"/>
         <location line="+134"/>
         <source>Sorry. It seems that the icon already exists.</source>
-        <translation>Das Symbol scheint schon zu existieren.</translation>
+        <translation>Das Symbol scheint bereits zu existieren.</translation>
     </message>
     <message>
         <location line="-671"/>
         <source>Sorry. It seems that icon already exists.&lt;br&gt;Please choose another name or cancel the operation.</source>
-        <translation>Das Symbol scheint schon zu existieren.&lt;br&gt;Bitte geben Sie einen anderen Namen ein, oder brechen Sie die Aktion ab.</translation>
+        <translation>Das Symbol scheint bereits zu existieren.&lt;br&gt;Bitte geben Sie einen anderen Namen ein, oder brechen Sie die Aktion ab.</translation>
     </message>
     <message>
         <location line="+186"/>
@@ -1664,7 +1661,7 @@ Weitere Informationen unter Hilfe.</translation>
         <location line="+24"/>
         <location line="+468"/>
         <source>Browse for application</source>
-        <translation type="unfinished"></translation>
+        <translation>Nach Anwendungen durchsuchen</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1735,7 +1732,7 @@ Weitere Informationen unter Hilfe.</translation>
     <message>
         <location line="+5"/>
         <source>Copy full application path to system&apos;s clipboard</source>
-        <translation>Kompletten Anwendungspfad in die System-Zwischenablage kopieren</translation>
+        <translation>Vollständigen Anwendungspfad in die System-Zwischenablage kopieren</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1770,7 +1767,7 @@ Weitere Informationen unter Hilfe.</translation>
         <location line="+3"/>
         <location line="+134"/>
         <source>Sorry. It seems that the icon already exists.&lt;br&gt;Please choose another name or cancel the operation.</source>
-        <translation>Das Symbol scheint schon zu existieren.&lt;br&gt;Bitte geben Sie einen anderen Namen ein, oder brechen Sie die Aktion ab.</translation>
+        <translation>Das Symbol scheint bereits zu existieren.&lt;br&gt;Bitte geben Sie einen anderen Namen ein, oder brechen Sie die Aktion ab.</translation>
     </message>
     <message>
         <location line="-105"/>
@@ -2093,7 +2090,7 @@ Weitere Informationen unter Hilfe.</translation>
     <message>
         <location line="+7"/>
         <source>OK</source>
-        <translation></translation>
+        <translation>OK</translation>
     </message>
 </context>
 <context>
@@ -2240,7 +2237,7 @@ Weitere Informationen unter Hilfe.</translation>
     <message>
         <location line="+0"/>
         <source>Sorry. CD image name cannot be empty.&lt;br&gt;Please enter new name, or cancel rename image operation.</source>
-        <translation>Der Name des CD-Abbilds darf nicht leer sein.&lt;br&gt;Bitte geben Sie einen neuen Namen ein oder brechen Sie die Umbenennung ab.</translation>
+        <translation>Der Name des CD-Abbilds darf nicht leer sein.&lt;br&gt;Bitte geben Sie einen neuen Namen ein oder brechen Sie das Umbenennen ab.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2434,17 +2431,17 @@ Weitere Informationen unter Hilfe.</translation>
     <message>
         <location line="-172"/>
         <source>Exec string:</source>
-        <translation></translation>
+        <translation>Auszuführen:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Prerun Exec string:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorher auszuführen:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Postrun Exec string:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nachher auszuführen:</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2533,7 +2530,7 @@ Weitere Informationen unter Hilfe.</translation>
     <message>
         <location line="-206"/>
         <source>%1 :. Qt GUI for Wine v%2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 :. Qt-Oberfläche für Wine v%2</translation>
     </message>
     <message>
         <location line="+210"/>
@@ -2728,12 +2725,12 @@ Weitere Informationen unter Hilfe.</translation>
     <message>
         <location line="+14"/>
         <source>Wine Version Manager</source>
-        <translation type="unfinished">Wine-Version-Manager</translation>
+        <translation>Wine-Versionenverwaltung</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Ctrl+M</source>
-        <translation type="unfinished"></translation>
+        <translation>Strg+M</translation>
     </message>
     <message>
         <source>Version Manager</source>
@@ -2892,7 +2889,7 @@ Weitere Informationen unter Hilfe.</translation>
         <location line="-171"/>
         <location line="+80"/>
         <source>Create Fake Drive</source>
-        <translation>Erzeuge virtuelles Laufwerk</translation>
+        <translation>Virtuelles Laufwerk erstellen</translation>
     </message>
     <message>
         <location line="-79"/>
@@ -2935,7 +2932,7 @@ Weitere Informationen unter Hilfe.</translation>
     <message>
         <location line="+91"/>
         <source>Fail to remove %1</source>
-        <translation>Entfernung von %1 fehlgeschlagen.</translation>
+        <translation>Entfernen von %1 fehlgeschlagen</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -2960,7 +2957,7 @@ Weitere Informationen unter Hilfe.</translation>
     <message>
         <location line="+0"/>
         <source>Removing old fake drive.&lt;br&gt;This may take a while...</source>
-        <translation>Lösche altes virtuelles Laufwerk&lt;br&gt;Das kann etwas dauern...</translation>
+        <translation>Lösche altes virtuelles Laufwerk&lt;br&gt;Das kann etwas dauern ...</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -3008,13 +3005,11 @@ Weitere Informationen unter Hilfe.</translation>
     <message>
         <location line="+4"/>
         <source>Set up prefix fake drive</source>
-        <translatorcomment>...</translatorcomment>
         <translation>Virtuelles Laufwerk für Präfix einrichten</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Set up prefix fake drive and applications</source>
-        <translatorcomment>...</translatorcomment>
         <translation>Virtuelles Laufwerk und Anwendungen für Präfix einrichten</translation>
     </message>
     <message>
@@ -3139,7 +3134,7 @@ Weitere Informationen unter Hilfe.</translation>
     <message>
         <location line="-234"/>
         <source>Fail to load version by name: %1</source>
-        <translation>Fehler bei der Ladung von version: %1</translation>
+        <translation>Fehler beim Laden der Version nach dem Namen: %1</translation>
     </message>
     <message>
         <location line="-20"/>
@@ -3150,7 +3145,7 @@ Weitere Informationen unter Hilfe.</translation>
         <location line="-163"/>
         <location line="+417"/>
         <source>Unable to load version by name: %1</source>
-        <translation>Fehler bei der Ladung von version: %1</translation>
+        <translation>Die Version kann nicht durch den Namen geladen werden: %1</translation>
     </message>
     <message>
         <location line="-248"/>
@@ -3165,12 +3160,12 @@ Weitere Informationen unter Hilfe.</translation>
     <message>
         <location line="+0"/>
         <source>Directory &quot;%1&quot; already exists. Do you wish to use it anyway?</source>
-        <translation>Der Ordner &quot;%1&quot; scheint bereits zu existieren. Muss er trotzdem genutzt werden?</translation>
+        <translation>Der Ordner „%1“ scheint bereits zu existieren. Muss er trotzdem genutzt werden?</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>The directory &quot;%1&quot; could not be created.</source>
-        <translation>Die Datei %1 kann nicht erstellt werden.</translation>
+        <translation>Die Datei „%1“ kann nicht erstellt werden.</translation>
     </message>
     <message>
         <location line="+46"/>
@@ -3229,12 +3224,12 @@ Weitere Informationen unter Hilfe.</translation>
     <message>
         <location line="+236"/>
         <source>Options below are obsolete, please delete them and use version manager instead:</source>
-        <translation>Die Optionen herunter sind veraltet, bitte löschen Sie sie und nutzen Version-Manager stattdessen.</translation>
+        <translation>Die untenstehenden Optionen sind veraltet, bitte löschen Sie sie und verwenden Sie stattdessen die Versionenverwaltung:</translation>
     </message>
     <message>
         <location line="+335"/>
         <source>Parse result:</source>
-        <translation>Analyseergebnisse</translation>
+        <translation>Analyseergebnis:</translation>
     </message>
     <message>
         <location line="-615"/>
@@ -3260,7 +3255,7 @@ Weitere Informationen unter Hilfe.</translation>
     <message>
         <location line="+292"/>
         <source>This template will be used to run wine programs. Normally you do not need to change it. See help for details.</source>
-        <translation>Diese Vorlage wird um Wine-Programme zu ausführen genutzt. Normalerweise braucht sie nicht zu geändert werden. Sehen Sie Hilfe für Details.</translation>
+        <translation>Diese Vorlage wird um Wine-Programme zu ausführen genutzt. Normalerweise braucht sie nicht zu geändert werden. Lesen Sie die Hilfe für Details.</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -3576,12 +3571,12 @@ Note: leave it blank for default.</source>
     <message>
         <location line="+84"/>
         <source>Sorry. It seems that the icon already exists.</source>
-        <translation>Das Symbol scheint schon zu existieren.</translation>
+        <translation>Das Symbol scheint bereits zu existieren.</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Sorry. It seems that the icon already exists.&lt;br&gt;Please choose another name or cancel the operation.</source>
-        <translation>Das Symbol scheint schon zu existieren.&lt;br&gt;Bitte geben Sie einen anderen Namen ein, oder brechen Sie die Aktion ab.</translation>
+        <translation>Das Symbol scheint bereits zu existieren.&lt;br&gt;Bitte geben Sie einen anderen Namen ein, oder brechen Sie die Aktion ab.</translation>
     </message>
     <message>
         <location line="+94"/>
@@ -3786,7 +3781,7 @@ Note: leave it blank for default.</source>
         <location line="+8"/>
         <location line="+53"/>
         <source>Waiting for Wine process to finish...</source>
-        <translation>Es wird auf Beendigung des Wine-Prozesses gewarted ...</translation>
+        <translation>Es wird auf Beendigung des Wine-Prozesses gewartet ...</translation>
     </message>
     <message>
         <location line="-53"/>
@@ -3834,7 +3829,7 @@ Note: leave it blank for default.</source>
     <message>
         <location line="-177"/>
         <source>No current icon set. Set icon via &quot;-i &lt;icon_name&gt;&quot; key.</source>
-        <translation>Keine aktuelles Symbol gesetzt. Bitte über &quot;-i &lt;icon_name&gt;&quot; setzen.</translation>
+        <translation>Kein aktuelles Symbol gesetzt. Bitte über &quot;-i &lt;icon_name&gt;&quot; setzen.</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -4045,7 +4040,7 @@ Note: leave it blank for default.</source>
         <location filename="../q4wine-cli/q4wine-cli.cpp" line="+1"/>
         <location filename="../q4wine-helper/q4wine-helper.cpp" line="+3"/>
         <source>KEYs list:</source>
-        <translation>WERTe Liste:</translation>
+        <translation>WERTe-Liste:</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4242,7 +4237,7 @@ Note: leave it blank for default.</source>
     <message>
         <location filename="../q4wine-gui/widgets/prefixcontrolwidget.cpp" line="-199"/>
         <source>Remove prefix directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Präfixordner entfernen</translation>
     </message>
 </context>
 <context>
@@ -4461,7 +4456,7 @@ Note: leave it blank for default.</source>
         <location filename="../q4wine-gui/uis/VersionManager.ui" line="+23"/>
         <location line="+156"/>
         <source>Wine Version Manager</source>
-        <translation>Wine-Version-Manager</translation>
+        <translation>Wine-Versionenverwaltung</translation>
     </message>
     <message>
         <location line="+117"/>
@@ -4501,7 +4496,7 @@ Note: leave it blank for default.</source>
     <message>
         <location filename="../q4wine-gui/versions.cpp" line="+205"/>
         <source>The Version settings has been modified.</source>
-        <translation>Die Versioneinstellungen wurde geändert.</translation>
+        <translation>Die Versionseinstellungen wurden geändert.</translation>
     </message>
     <message>
         <location line="+32"/>
@@ -4519,7 +4514,7 @@ Note: leave it blank for default.</source>
     <message>
         <location line="+6"/>
         <source>Sorry. It seems that the version name aready exists.&lt;br&gt;Please choose another version name.</source>
-        <translation>Die Version scheint schon zu existieren.&lt;br&gt;Bitte geben Sie einen anderen Namen ein.</translation>
+        <translation>Die Version scheint bereits zu existieren.&lt;br&gt;Bitte geben Sie einen anderen Namen ein.</translation>
     </message>
     <message>
         <location line="+25"/>
@@ -4534,32 +4529,32 @@ Note: leave it blank for default.</source>
     <message>
         <location line="-68"/>
         <source>Default version can not be removed.</source>
-        <translation>Standartversion kann nicht entfernt werden.</translation>
+        <translation>Standardversion kann nicht entfernt werden.</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>32 or 64 wine library path required.</source>
-        <translation>32- oder 64-bit Winebibliothekphad ist erforderlich.</translation>
+        <translation>32- oder 64-bit Wine-Bibliothekspfad ist erforderlich.</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Can&apos;t save changes...</source>
-        <translation>Die Änderungen können nicht gespeichert werden</translation>
+        <translation>Die Änderungen können nicht gespeichert werden ...</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Path &apos;%1&apos; is not exists.</source>
-        <translation>Pfad &apos;%1&quot; existiert nicht.</translation>
+        <translation>Pfad „%1“ existiert nicht.</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Path &apos;%1&apos; is not a directory.</source>
-        <translation>Pfad &apos;%1&apos; ist kein Ordner.</translation>
+        <translation>Pfad „%1“ ist kein Ordner.</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Path &apos;%1&apos; is not a file.</source>
-        <translation>Pfad &apos;%1&apos; ist keine Datei.</translation>
+        <translation>Pfad „%1“ ist keine Datei.</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -4804,7 +4799,7 @@ Note: leave it blank for default.</source>
     <message>
         <location line="-346"/>
         <source>generic</source>
-        <translation></translation>
+        <translation>Allgemein</translation>
     </message>
     <message>
         <location line="+68"/>
@@ -4841,7 +4836,7 @@ Note: leave it blank for default.</source>
     <message>
         <location line="+70"/>
         <source>Sorry, specify proxy host.</source>
-        <translation>Bitte einen Proxy-Host eingeben.</translation>
+        <translation>Bitte einen Proxy-Rechner eingeben.</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -4871,7 +4866,7 @@ Note: leave it blank for default.</source>
     <message>
         <location line="+253"/>
         <source>&lt;p&gt;Everything is ready for finishing %1 setup. &lt;/p&gt;&lt;p&gt;Please, press the &lt;b&gt;Finish&lt;/b&gt; button to finish setup process. Or press &lt;b&gt;Back&lt;/b&gt; button for return.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; You can access online documentation at any time by pressing &lt;b&gt;F1&lt;/b&gt; key or by clicking &quot;Help&quot; button.&lt;/p&gt;&lt;/p&gt;If you are new to %1, please check our online guide:&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Die Einrichtung von %1 kann jetzt abgeschlossen werden.&lt;/p&gt;&lt;p&gt;Klicken Sie bitte &lt;b&gt;Abschließen&lt;/b&gt;, um die Einrichtung zu beenden. Oder klicken Sie &lt;b&gt;Zurück&lt;/b&gt;, um zurück zu gehen.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Beachten Sie:&lt;/b&gt; Sie können jederzeit auf die Online-Dokumentation zugreifen, indem Sie die &lt;b&gt;F1&lt;/b&gt;-Taste drücken oder den „Hilfe“-Knopf klicken.&lt;/p&gt;&lt;/p&gt;Wenn Sie %1 noch nie verwendet haben, lesen Sie bitte die Online-Hilfe:&lt;/p&gt;</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -4935,7 +4930,7 @@ Note: leave it blank for default.</source>
     <message>
         <location line="-102"/>
         <source>Open online guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Online-Hilfe öffnen</translation>
     </message>
     <message>
         <location line="+488"/>
@@ -5008,7 +5003,7 @@ Note: leave it blank for default.</source>
     <message>
         <location line="+167"/>
         <source>Refreshing winetricks application list.</source>
-        <translation>Winetricks-Anwendungsliste wird aktualisiert</translation>
+        <translation>Winetricks-Anwendungsliste wird aktualisiert.</translation>
     </message>
 </context>
 </TS>
